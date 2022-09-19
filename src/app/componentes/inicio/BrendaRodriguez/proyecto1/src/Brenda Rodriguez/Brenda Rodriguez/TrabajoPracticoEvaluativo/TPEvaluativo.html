@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajo Practico Evaluativo</title>
+  <link rel="stylesheet" href="bootstrap.min (4).css">
+  <link rel="stlesheet" href="./bootstrap-icons-1.8.3/bootstrap-icons.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <img src="RPC-JP_Logo.png" alt="" width="60px" height="auto">
+   <div class="container-fluid">
+    <h2>Trabajo Practico Evaluativo</h2>
+    <h5>Brenda Rodriguez</h5>
+   </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-5">
+            <input type="text" name="Producto" id="producto" class="form-control m-3" placeholder="Producto">
+            <input type="text" name="marca" id="marca" class="form-control m-3" placeholder="marca">
+            <input type="text" name="Categoria" id="categoria" class="form-control m-3" placeholder="Categoria">
+            <input type="text" name="UrlImagen" id="urlimagen" class="form-control m-3" placeholder="Url Imagen">
+            <input type="text" name="precio" id="precio" class="form-control m-3" placeholder="Precio">
+            <input type="text" name="stock" id="stock" class="form-control m-3" placeholder="Stock">
+            <button class="btn btn-success p-3 m-3" onclick="agregarProducto()">Agregar Producto</button>
+        </div>
+        <div class="col-7">
+            <div id="demo">
+                
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+<button class="btn btn-danger p-3 m-3" onclick="calcularTotal()">Ordenar</button>
+    </div>
+      <div class="col-6">
+<h3>Valor con tarjeta: <span id="totalt">0</span></h3>
+<h3>Subtotal: <span id="subt">0</span></h3>
+        </div>
+    </div>
+</div>
+<script src="TPEvaluativo.js"></script>
+</body>
+</html>

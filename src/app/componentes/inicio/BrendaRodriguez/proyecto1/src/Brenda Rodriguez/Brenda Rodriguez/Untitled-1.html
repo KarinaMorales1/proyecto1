@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+  <ul class="nav">
+    <li class="primary-text">
+        <img src="logo.jpg">
+      <h3>Hamburgueseria "Burguer</h3>
+    </li>
+    
+  </ul>
+
+<div class="card-group">
+<div class="card" style="width: 18rem;">
+    <img src="simple.webp" height="400" width="400" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Burguer simple</h5>
+      <p class="card-text">Hamburguesa de una carne con queso, lechuga y tomate <br>
+        900$</p>
+      <button class="btn btn-primary" id="hs1" onclick="HambSi()">Agregar</button>
+    </div>
+</div>
+  <div class="card" style="width: 18rem;">
+    <img src="doble.jpeg" width="400" height="400" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">Burguer doble</h5>
+      <p class="card-text">Hamburguesa de dos carnes con queso, lechuga, tomate y panceta <br>
+        1.050$</p>
+        <p id="cantidad">0</p>
+      <button class="btn btn-primary" id="hd1" onclick="HambD()">Agregar</button>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img src="Triple.png" height="400" width="400" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Burguer triple</h5>
+      <p class="card-text">Hamburguesa con tres carnes, tres quesos, cebolla y morron (verde y rojo) <br>
+        1.250$</p>
+      <button class="btn btn-primary" id="ht1" onclick="Hambtri()">Agregar</button>
+    </div>
+</div>
+</div>
+<script src="main.js"></script>
+</body>
